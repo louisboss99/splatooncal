@@ -1,1 +1,14 @@
-Hello, world
+<html>
+  <head>
+    <script>
+      xhr = new XMLHttpRequest();
+      xhr.open('GET', 'http://splatapi.ovh/schedule_eu.json', false);
+      xhr.send();
+      
+      document.write(xhr.response);
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>
